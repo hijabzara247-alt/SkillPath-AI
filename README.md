@@ -1,6 +1,6 @@
 # SkillPath AI
 
-AI Learning Roadmap Generator — Phase 5.
+AI Learning Roadmap Generator .
 
 ## Features
 - User login/register
