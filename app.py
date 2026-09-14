@@ -1501,7 +1501,7 @@ metrics=[
     ("Completed Tasks", a.get("completed_tasks", 0)),
     ("Overall Progress", f"{a.get('overall', 0)}%"),
     ("Projects", a.get("projects", 0))
-]
+        ]
     for col,(label,val) in zip(cols,metrics): col.markdown(f'<div class="metric"><div class="small">{label}</div><h2>{val}</h2></div>',unsafe_allow_html=True)
     st.markdown("### 📚 Current Roadmap")
     show_html(roadmap_html(s()) if data else '<div class="card">No roadmap yet. Open <b>Generate Roadmap</b> to start.</div>')
