@@ -1496,7 +1496,7 @@ if page=="Dashboard":
     data=s().get("data")
     st.subheader(f"Welcome back, {s()['user_name']} 👋")
     a=analytics(s()); cols=st.columns(4)
-   metrics=[
+metrics=[
     ("Roadmaps", a.get("roadmaps", 0)),
     ("Completed Tasks", a.get("completed_tasks", 0)),
     ("Overall Progress", f"{a.get('overall', 0)}%"),
