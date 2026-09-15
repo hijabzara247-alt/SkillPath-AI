@@ -1610,4 +1610,4 @@ elif page=="PDF Export":
             with open(path,"rb") as f: st.download_button("Download PDF",f,file_name=Path(path).name,mime="application/pdf")
         except Exception as ex: st.error(str(ex))
 
-st.caption("SkillPath AI • Phase 5 • Streamlit")
+st.caption("SkillPath AI • AI Learning Roadmap Generator")
