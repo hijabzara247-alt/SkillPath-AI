@@ -1470,7 +1470,7 @@ with st.sidebar:
     if s().get("user_id"):
         st.success(f"Hi, {s()['user_name']}")
     page=st.radio("Navigation",["Dashboard","Generate Roadmap","My Roadmaps","Projects","Resources","Weekly Plan","Progress","AI Coach","Analytics","Growth Hub","PDF Export"],index=0)
-    if s().get("user_id") and st.button("Logout",use_container_width=True):
+    if s().get("user_id") and st.button("↪ Logout",use_container_width=True,key="logout_button"):
         set_session(session_copy()); st.session_state.coach_history=[]; st.rerun()
 
 st.markdown(f'<div class="hero"><h1>SkillPath AI</h1><div>Turn your goals into a personalized learning journey.</div></div>',unsafe_allow_html=True)
