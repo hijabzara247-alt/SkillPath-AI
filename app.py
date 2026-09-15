@@ -1371,9 +1371,7 @@ st.markdown("""
 <style>
 .block-container {padding-top: 1.2rem; max-width: 1400px;}
 [data-testid="stSidebar"] {background: #0b1f3a;}
-[data-testid="stSidebar"] .stButton button {
-    color: black !important;
-}
+[data-testid="stSidebar"] * {color: white !important;}
 .hero {padding: 28px; border-radius: 18px; background: linear-gradient(135deg,#eef5ff,#f5f0ff); margin-bottom: 18px;}
 .hero h1 {color:#18345e; margin-bottom:6px;}
 .card {background:white; border:1px solid #e5eaf2; border-radius:16px; padding:20px; margin:8px 0; box-shadow:0 4px 14px rgba(0,0,0,.04);}
