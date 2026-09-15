@@ -1572,7 +1572,13 @@ elif page=="AI Coach":
 elif page=="Analytics":
     st.subheader("📊 Analytics")
     a=analytics(s()); cols=st.columns(5)
-    vals=[("Roadmaps",a["roadmaps"]),("Completed",a["completed_tasks"]),("Progress",f"{a['overall']}%"),("Streak",a["streak"]),("Projects",a["projects"])]
+    vals=[
+    ("Roadmaps", a["roadmaps"]),
+    ("Completed", a["done"]),
+    ("Progress", f"{a['progress']}%"),
+    ("Streak", a["streak"]),
+    ("Projects", a["projects"])
+]
     for col,(x,y) in zip(cols,vals): col.metric(x,y)
     show_html(analytics_html(s()))
 
