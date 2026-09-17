@@ -1,21 +1,36 @@
 🚀 SkillPath AI
 AI-Powered Learning Roadmap Generator
 
-SkillPath AI is an intelligent learning companion that creates personalized, AI-generated learning roadmaps, tracks your progress, and adapts to your goals — helping you learn any skill in a structured, guided way.
+SkillPath AI is an intelligent learning companion that creates personalized
+, AI-generated learning roadmaps, tracks your progress, and adapts to your 
+goals — helping you learn any skill in a structured, guided way.
 
 ✨ Features
+
 🔐 User login / register system
+
 🧠 AI-personalized learning roadmaps
+
 📁 Projects, resources, and weekly learning plans
+
 ✅ Task-level progress tracking
+
 🤖 AI Learning Coach
+
 📊 Analytics dashboard
+
 👤 User profile management
+
 🎯 AI-based skill assessment
+
 🔄 Adaptive roadmap generation
+
 📅 Daily learning plans
+
 🏆 Learning goals and achievements
+
 📄 PDF export of roadmaps
+
 🛠️ Tech Stack
 Frontend/Backend: Streamlit
 Language: Python 3.10+
