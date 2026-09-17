@@ -1,8 +1,8 @@
 🚀 SkillPath AI
 AI-Powered Learning Roadmap Generator
 
-SkillPath AI is an intelligent learning companion that creates personalized
-, AI-generated learning roadmaps, tracks your progress, and adapts to your 
+SkillPath AI is an intelligent learning companion that creates personalized,
+AI-generated learning roadmaps, tracks your progress, and adapts to your 
 goals — helping you learn any skill in a structured, guided way.
 
 ✨ Features
@@ -32,11 +32,17 @@ goals — helping you learn any skill in a structured, guided way.
 📄 PDF export of roadmaps
 
 🛠️ Tech Stack
+
 Frontend/Backend: Streamlit
+
 Language: Python 3.10+
+
 AI Engine: GROQ API
+
 Database: SQLite (demo) / Supabase or PostgreSQL (production)
+
 ⚙️ Run Locally
+
 Clone the repository
 bash
    git clone <your-repo-url>
