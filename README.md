@@ -1,106 +1,126 @@
-🚀 SkillPath AI
-AI-Powered Learning Roadmap Generator
+# 🚀 SkillPath AI
 
-SkillPath AI is an intelligent learning companion that creates personalized,
-AI-generated learning roadmaps, tracks your progress, and adapts to your 
-goals — helping you learn any skill in a structured, guided way.
+### **AI-Powered Learning Roadmap Generator**
 
-✨ Features
+**SkillPath AI** is an intelligent learning companion that creates **personalized, AI-generated learning roadmaps**, tracks learning progress, and adapts to individual goals — helping users learn any skill in a **structured and guided way**.
 
-🔐 User login / register system
+---
 
-🧠 AI-personalized learning roadmaps
+## ✨ Features
 
-📁 Projects, resources, and weekly learning plans
+* 🔐 **User Login & Registration System**
+* 🧠 **AI-Personalized Learning Roadmaps**
+* 📁 **Projects & Learning Resources**
+* 📅 **Weekly & Daily Learning Plans**
+* ✅ **Task-Level Progress Tracking**
+* 🤖 **AI Learning Coach**
+* 📊 **Analytics Dashboard**
+* 👤 **User Profile Management**
+* 🎯 **AI-Based Skill Assessment**
+* 🔄 **Adaptive Roadmap Generation**
+* 🏆 **Learning Goals & Achievements**
+* 📄 **PDF Roadmap Export**
 
-✅ Task-level progress tracking
+---
 
-🤖 AI Learning Coach
+## 🛠️ Tech Stack
 
-📊 Analytics dashboard
+| Technology                | Purpose                          |
+| ------------------------- | -------------------------------- |
+| **Python 3.10+**          | Programming Language             |
+| **Streamlit**             | Frontend & Application Framework |
+| **GROQ API**              | AI / LLM Engine                  |
+| **SQLite**                | Demo / Local Database            |
+| **Supabase / PostgreSQL** | Production Database              |
 
-👤 User profile management
+---
 
-🎯 AI-based skill assessment
+## ⚙️ Run Locally
 
-🔄 Adaptive roadmap generation
+### **1. Clone the Repository**
 
-📅 Daily learning plans
+```bash
+git clone https://github.com/your-username/skillpath-ai.git
+cd skillpath-ai
+```
 
-🏆 Learning goals and achievements
+### **2. Install Dependencies**
 
-📄 PDF export of roadmaps
+```bash
+pip install -r requirements.txt
+```
 
-🛠️ Tech Stack
+### **3. Set Your GROQ API Key**
 
-Frontend/Backend: Streamlit
+Create a `.env` file and add:
 
-Language: Python 3.10+
+```env
+GROQ_API_KEY=your_groq_api_key
+```
 
-AI Engine: GROQ API
+**Never commit your API key to GitHub.**
 
-Database: SQLite (demo) / Supabase or PostgreSQL (production)
+### **4. Run the Application**
 
-⚙️ Run Locally
+```bash
+streamlit run app.py
+```
 
-Clone the repository
+---
 
-bash
+## ☁️ Deployment — Streamlit Cloud
 
-   git clone <your-repo-url>
-   cd skillpath-ai
-   
-Install dependencies
+To deploy **SkillPath AI**:
 
-bash
+1. Push the project to **GitHub**.
+2. Open **Streamlit Cloud**.
+3. Connect your GitHub repository.
+4. Select `app.py` as the main application file.
+5. Deploy the application.
+6. Go to **App Settings → Secrets**.
+7. Add your GROQ API key:
 
-   pip install -r requirements.txt
-   
-Set your GROQ API key as an environment variable
+```toml
+GROQ_API_KEY = "your_groq_api_key"
+```
 
-bash
+> 🔒 **Important:** Never commit your API key or `.env` file to the repository.
 
-   export GROQ_API_KEY="your_api_key_here"     # macOS/Linux
-   set GROQ_API_KEY="your_api_key_here"        # Windows
-   
-Run the app
+---
 
-bash
+## 📌 Notes
 
-   streamlit run app.py
-   
-☁️ Deployment (Streamlit Cloud)
+* **SQLite** is currently used for demo and testing purposes.
+* For a production application with **persistent multi-user data**, SQLite can be migrated to **Supabase or PostgreSQL**.
+* The AI features require a valid **GROQ API key**.
 
-1-Push your project to GitHub
+---
 
-2-Deploy the repo on Streamlit Cloud
+## 🔮 Future Improvements
 
-3-Go to App Settings → Secrets and add:
+* 🌍 **Multi-Language Support**
+* 🎮 **Gamification**
 
-   GROQ_API_KEY = "your_api_key_here"
-   
-Never commit your API key to the repository
+  * Badges
+  * Streaks
+  * Leaderboards
+* 📱 **Mobile-Friendly UI**
+* 👥 **Team & Collaborative Roadmaps**
+* 🔔 **Learning Reminders & Notifications**
+* 📈 **Advanced Learning Analytics**
 
-📌 Notes
+---
 
-*SQLite is used for demo/testing purposes only.
+## 📄 License
 
-*For production use with persistent multi-user data, migrate the database to Supabase or PostgreSQL.
+This project is open-source and available under the **MIT License**.
 
-🔮 Future Improvements
+---
 
-.Multi-language support
+## 🙋‍♀️ Author
 
-.Gamification (badges, streaks, leaderboards)
+**Hijab Zara**
 
-.Mobile-friendly UI
+🎓 **Bachelor of Artificial Intelligence Student**
 
-.Team/collaborative roadmaps
-
-📄 License
-
-This project is open-source and available under the MIT License.
-
-🙋‍♀️ Author
-
-Hijab Zara Bachelor of Artificial Intelligence Student
+> Building AI-powered applications and exploring AI automation, intelligent systems, and modern web technologies.
