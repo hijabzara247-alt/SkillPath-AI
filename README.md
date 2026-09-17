@@ -44,33 +44,59 @@ Database: SQLite (demo) / Supabase or PostgreSQL (production)
 ⚙️ Run Locally
 
 Clone the repository
+
 bash
+
    git clone <your-repo-url>
    cd skillpath-ai
+   
 Install dependencies
+
 bash
+
    pip install -r requirements.txt
+   
 Set your GROQ API key as an environment variable
+
 bash
+
    export GROQ_API_KEY="your_api_key_here"     # macOS/Linux
    set GROQ_API_KEY="your_api_key_here"        # Windows
+   
 Run the app
+
 bash
+
    streamlit run app.py
+   
 ☁️ Deployment (Streamlit Cloud)
-Push your project to GitHub
-Deploy the repo on Streamlit Cloud
-Go to App Settings → Secrets and add:
+
+1-Push your project to GitHub
+
+2-Deploy the repo on Streamlit Cloud
+
+3-Go to App Settings → Secrets and add:
+
    GROQ_API_KEY = "your_api_key_here"
+   
 Never commit your API key to the repository
+
 📌 Notes
-SQLite is used for demo/testing purposes only.
-For production use with persistent multi-user data, migrate the database to Supabase or PostgreSQL.
+
+*SQLite is used for demo/testing purposes only.
+
+*For production use with persistent multi-user data, migrate the database to Supabase or PostgreSQL.
+
 🔮 Future Improvements
-Multi-language support
-Gamification (badges, streaks, leaderboards)
-Mobile-friendly UI
-Team/collaborative roadmaps
+
+.Multi-language support
+
+.Gamification (badges, streaks, leaderboards)
+
+.Mobile-friendly UI
+
+.Team/collaborative roadmaps
+
 📄 License
 
 This project is open-source and available under the MIT License.
