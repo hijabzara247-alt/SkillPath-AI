@@ -1,34 +1,29 @@
-🚀 SkillPath AI
+# 🚀 SkillPath AI
 
-AI-Powered Learning Roadmap Generator
+### **AI-Powered Learning Roadmap Generator**
 
-SkillPath AI is an intelligent learning companion that creates personalized, AI-generated learning roadmaps, tracks learning progress, and adapts to individual goals — helping users learn any skill in a structured and guided way.
+**SkillPath AI** is a Streamlit web app that generates **personalized, AI-driven learning roadmaps** using the GROQ API and helps users **track their progress toward their learning goals**.
 
-✨ Features
+---
 
-🔐 User Login & Registration System
+## ✨ Features
 
-🧠 AI-Personalized Learning Roadmaps
+* 🔐 **User Login & Register** — Secure authentication with salted password hashing (PBKDF2)
+* 🧠 **AI-Generated Learning Roadmaps** — Personalized based on domain, skill level, duration, goal, weekly hours, and current knowledge
+* 📁 **My Roadmaps** — Save and reload multiple previously generated roadmaps
+* 🛠️ **Projects** — AI-suggested portfolio projects tied to the roadmap
+* 🔗 **Resources** — AI-curated learning resources, including courses, documentation, guides, and links
+* 📅 **Weekly Plan** — Week-by-week breakdown of the roadmap
+* ✅ **Task-Level Progress Tracking** — Mark completion percentage for each task
+* 🤖 **AI Learning Coach** — Chat-based assistant for asking questions about the roadmap
+* 📊 **Analytics Dashboard** — Roadmap count, completed tasks, overall progress percentage, streak, and project count
+* 👤 **User Profile** — Manage bio, target role, experience level, preferred learning style, and daily study minutes
+* 🎯 **AI Skill Assessment** — AI-generated quiz for a selected domain with scoring
+* 🔄 **Adaptive Roadmap** — Regenerates and strengthens the roadmap based on current progress and weak topics
+* 📆 **Daily Learning Plan** — AI-generated learning plan for a specific date
+* 🏆 **Learning Goals & Achievements** — Set goals with target dates, mark goals as completed, and earn badges
+* 📄 **PDF Export** — Download the current roadmap as a PDF using ReportLab
 
-📁 Projects & Learning Resources
-
-📅 Weekly & Daily Learning Plans
-
-✅ Task-Level Progress Tracking
-
-🤖 AI Learning Coach
-
-📊 Analytics Dashboard
-
-👤 User Profile Management
-
-🎯 AI-Based Skill Assessment
-
-🔄 Adaptive Roadmap Generation
-
-🏆 Learning Goals & Achievements
-
-📄 PDF Roadmap Export
 ---
 
 ## 🛠️ Tech Stack
@@ -126,3 +121,4 @@ This project is open-source and available under the **MIT License**.
 **Hijab Zara**
 
 🎓 **Bachelor of Artificial Intelligence Student**
+
